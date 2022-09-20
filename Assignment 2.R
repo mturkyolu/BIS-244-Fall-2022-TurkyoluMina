@@ -1,4 +1,8 @@
 
+
+#Read CSV Missing : -10 
+#correct way to read csv for future reference
+us_states <- read.csv(here("covid-19-data","us-states.csv")) 
 library(dplyr)
 filter_data <- filter(us_states,state=="Pennsylvania")
 View(filter_data)
