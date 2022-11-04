@@ -1,3 +1,12 @@
+#   Failure to clone/link COVID-19 repo: -10
+
+# correct way to Import data into dataframe
+us_counties <- read_csv(here("covid-19-data","live","us-counties.csv"))
+us_counties_recent <- read_csv(here("covid-19-data","us-counties-recent.csv"))
+us_counties_2020 <- read_csv(here("covid-19-data","us-counties-2020.csv"))
+us_counties_2021 <- read_csv(here("covid-19-data","us-counties-2021.csv"))
+us_counties_2022 <- read_csv(here("covid-19-data","us-counties-2022.csv"))
+
 # Importing us counties 2020
 library(readr)
 us_counties_2020 <- read_csv("Documents/GitHub/BIS-244-Fall-2022-TurkyoluMina/covid-19-data/us-counties-2020.csv")
